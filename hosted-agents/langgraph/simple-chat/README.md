@@ -80,7 +80,6 @@ curl -X POST http://localhost:8088/responses \
 
 - **Apple Silicon(M1/M2/M3/M4)** 맥북에서는 Docker 빌드 시 `--platform=linux/amd64` 필수
 - **`OPENAI_API_VERSION`** — 코드에서는 사용하지 않지만, Foundry 컨테이너 배포 시 환경변수로 `2025-03-01-preview`를 명시해야 함
-- **`starlette==0.45.3`** — `azure-ai-agentserver`가 최신 Starlette과 호환되지 않아 버전 고정 필요
 
 ## 참고
 
