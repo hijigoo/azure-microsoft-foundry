@@ -1,0 +1,7 @@
+azure-ai-agentserver-langgraph==1.0.0b12
+langchain==1.2.15
+langchain-openai==1.1.12
+langgraph==1.1.6
+azure-identity==1.25.3
+starlette==0.45.3
+uvicorn==0.44.0
