@@ -1,0 +1,12 @@
+name: echo-chat
+description: Dummy echo agent for testing Hosted Agent interface. No LLM calls.
+metadata:
+  tags:
+    - test
+    - echo
+template:
+  name: EchoAgent
+  kind: hosted
+  protocols:
+    - protocol: responses
+      version: v1

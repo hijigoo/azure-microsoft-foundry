@@ -1,0 +1,12 @@
+name: api-chat
+description: External API call test agent using JSONPlaceholder. No LLM calls.
+metadata:
+  tags:
+    - test
+    - api
+template:
+  name: ApiChatAgent
+  kind: hosted
+  protocols:
+    - protocol: responses
+      version: v1
