@@ -1,6 +1,12 @@
-# Azure Microsoft Foundry - Hosted Agent 샘플
+# Azure Microsoft Foundry 샘플
 
-Microsoft Foundry에 Hosted Agent를 배포하는 다양한 샘플 프로젝트 모음입니다.
+Microsoft Foundry의 에이전트를 구축하고 배포하는 다양한 샘플 프로젝트 모음입니다.
+
+## Agents (Prompt Agent)
+
+| 에이전트 | 설명 | 검증 포인트 |
+|---|---|---|
+| [workiq-sharepoint](agents/workiq-sharepoint/) | WorkIQ SharePoint 문서를 검색·요약하는 에이전트 | SDK로 Prompt Agent 등록, MCPTool 기반 SharePoint 연결, 다른 유저로 호출 테스트 |
 
 ## Hosted Agents
 
